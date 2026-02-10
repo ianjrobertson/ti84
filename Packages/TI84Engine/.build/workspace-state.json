@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "ti84core",
+          "kind" : "fileSystem",
+          "location" : "/Users/ianjr/Projects/ti84/Packages/TI84Core",
+          "name" : "TI84Core"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/ianjr/Projects/ti84/Packages/TI84Core"
+        },
+        "subpath" : "ti84core"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/master.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ASTNode.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/BuiltinFunction.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcError.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcKey.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/MenuDefinition.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ModeSettings.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Operator.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Operator~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/TI84Value.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Token.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Token.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Token.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Token~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Token.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/WindowParameters.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.swiftdeps"
+  }
+}

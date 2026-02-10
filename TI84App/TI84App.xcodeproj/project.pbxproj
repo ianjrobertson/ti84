@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001000000000000000A /* TI84App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000A /* TI84App.swift */; };
+		A1000002000000000000000A /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000002000000000000000A /* AppState.swift */; };
+		A1000003000000000000000A /* KeyDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000003000000000000000A /* KeyDispatcher.swift */; };
+		A1000004000000000000000A /* KeyboardShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000004000000000000000A /* KeyboardShortcuts.swift */; };
+		A1000005000000000000000A /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000005000000000000000A /* Screen.swift */; };
+		A1000006000000000000000A /* CalculatorShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000006000000000000000A /* CalculatorShell.swift */; };
+		A1000007000000000000000A /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000007000000000000000A /* DisplayView.swift */; };
+		A1000008000000000000000A /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000008000000000000000A /* HomeScreenView.swift */; };
+		A1000009000000000000000A /* GraphScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000009000000000000000A /* GraphScreenView.swift */; };
+		A100000A000000000000000A /* TableScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000A000000000000000A /* TableScreenView.swift */; };
+		A100000B000000000000000A /* YEqualsEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000B000000000000000A /* YEqualsEditorView.swift */; };
+		A100000C000000000000000A /* WindowEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000C000000000000000A /* WindowEditorView.swift */; };
+		A100000D000000000000000A /* MatrixEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000D000000000000000A /* MatrixEditorView.swift */; };
+		A100000E000000000000000A /* ListEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000E000000000000000A /* ListEditorView.swift */; };
+		A100000F000000000000000A /* ProgramEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200000F000000000000000A /* ProgramEditorView.swift */; };
+		A1000010000000000000000A /* ModeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000010000000000000000A /* ModeScreenView.swift */; };
+		A1000011000000000000000A /* MenuOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000011000000000000000A /* MenuOverlayView.swift */; };
+		A1000012000000000000000A /* ProgramIOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000012000000000000000A /* ProgramIOView.swift */; };
+		A1000013000000000000000A /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000013000000000000000A /* KeypadView.swift */; };
+		A1000014000000000000000A /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000014000000000000000A /* CalculatorButton.swift */; };
+		A1000015000000000000000A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000015000000000000000A /* ButtonStyles.swift */; };
+		A1000016000000000000000A /* KeyDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000016000000000000000A /* KeyDefinitions.swift */; };
+		A1000017000000000000000A /* LCDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000017000000000000000A /* LCDTextView.swift */; };
+		A1000018000000000000000A /* CursorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000018000000000000000A /* CursorView.swift */; };
+		A1000019000000000000000A /* StatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000019000000000000000A /* StatusBarView.swift */; };
+		A100001A000000000000000A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200001A000000000000000A /* HomeViewModel.swift */; };
+		A100001B000000000000000A /* GraphViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200001B000000000000000A /* GraphViewModel.swift */; };
+		A100001C000000000000000A /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200001C000000000000000A /* TableViewModel.swift */; };
+		A100001D000000000000000A /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A200001D000000000000000A /* MenuViewModel.swift */; };
+		A100001E000000000000000A /* TI84Core in Frameworks */ = {isa = PBXBuildFile; productRef = A300001E000000000000000A /* TI84Core */; };
+		A100001F000000000000000A /* TI84Engine in Frameworks */ = {isa = PBXBuildFile; productRef = A300001F000000000000000A /* TI84Engine */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A2000001000000000000000A /* TI84App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TI84App.swift; sourceTree = "<group>"; };
+		A2000002000000000000000A /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A2000003000000000000000A /* KeyDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyDispatcher.swift; sourceTree = "<group>"; };
+		A2000004000000000000000A /* KeyboardShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardShortcuts.swift; sourceTree = "<group>"; };
+		A2000005000000000000000A /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		A2000006000000000000000A /* CalculatorShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorShell.swift; sourceTree = "<group>"; };
+		A2000007000000000000000A /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		A2000008000000000000000A /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		A2000009000000000000000A /* GraphScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphScreenView.swift; sourceTree = "<group>"; };
+		A200000A000000000000000A /* TableScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableScreenView.swift; sourceTree = "<group>"; };
+		A200000B000000000000000A /* YEqualsEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YEqualsEditorView.swift; sourceTree = "<group>"; };
+		A200000C000000000000000A /* WindowEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowEditorView.swift; sourceTree = "<group>"; };
+		A200000D000000000000000A /* MatrixEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixEditorView.swift; sourceTree = "<group>"; };
+		A200000E000000000000000A /* ListEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEditorView.swift; sourceTree = "<group>"; };
+		A200000F000000000000000A /* ProgramEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramEditorView.swift; sourceTree = "<group>"; };
+		A2000010000000000000000A /* ModeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeScreenView.swift; sourceTree = "<group>"; };
+		A2000011000000000000000A /* MenuOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOverlayView.swift; sourceTree = "<group>"; };
+		A2000012000000000000000A /* ProgramIOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramIOView.swift; sourceTree = "<group>"; };
+		A2000013000000000000000A /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		A2000014000000000000000A /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		A2000015000000000000000A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		A2000016000000000000000A /* KeyDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyDefinitions.swift; sourceTree = "<group>"; };
+		A2000017000000000000000A /* LCDTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCDTextView.swift; sourceTree = "<group>"; };
+		A2000018000000000000000A /* CursorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CursorView.swift; sourceTree = "<group>"; };
+		A2000019000000000000000A /* StatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarView.swift; sourceTree = "<group>"; };
+		A200001A000000000000000A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A200001B000000000000000A /* GraphViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewModel.swift; sourceTree = "<group>"; };
+		A200001C000000000000000A /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		A200001D000000000000000A /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		A2000020000000000000000A /* TI84Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TI84Core; path = ../../Packages/TI84Core; sourceTree = "<group>"; };
+		A2000021000000000000000A /* TI84Engine */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = TI84Engine; path = ../../Packages/TI84Engine; sourceTree = "<group>"; };
+		A4000001000000000000000A /* TI84App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TI84App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5000001000000000000000A /* TI84App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TI84App.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6000001000000000000000A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100001E000000000000000A /* TI84Core in Frameworks */,
+				A100001F000000000000000A /* TI84Engine in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7000001000000000000000A = {
+			isa = PBXGroup;
+			children = (
+				A7000002000000000000000A /* TI84App */,
+				A7000003000000000000000A /* Packages */,
+				A7000004000000000000000A /* Products */,
+				A7000005000000000000000A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7000002000000000000000A /* TI84App */ = {
+			isa = PBXGroup;
+			children = (
+				A5000001000000000000000A /* TI84App.entitlements */,
+				A2000001000000000000000A /* TI84App.swift */,
+				A7000006000000000000000A /* App */,
+				A7000007000000000000000A /* Views */,
+				A7000008000000000000000A /* ViewModels */,
+			);
+			path = TI84App;
+			sourceTree = "<group>";
+		};
+		A7000003000000000000000A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				A2000020000000000000000A /* TI84Core */,
+				A2000021000000000000000A /* TI84Engine */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		A7000004000000000000000A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4000001000000000000000A /* TI84App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7000005000000000000000A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7000006000000000000000A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A2000002000000000000000A /* AppState.swift */,
+				A2000003000000000000000A /* KeyDispatcher.swift */,
+				A2000004000000000000000A /* KeyboardShortcuts.swift */,
+				A2000005000000000000000A /* Screen.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A7000007000000000000000A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2000006000000000000000A /* CalculatorShell.swift */,
+				A7000009000000000000000A /* Display */,
+				A700000A000000000000000A /* Keypad */,
+				A700000B000000000000000A /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A7000008000000000000000A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A200001A000000000000000A /* HomeViewModel.swift */,
+				A200001B000000000000000A /* GraphViewModel.swift */,
+				A200001C000000000000000A /* TableViewModel.swift */,
+				A200001D000000000000000A /* MenuViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A7000009000000000000000A /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				A2000007000000000000000A /* DisplayView.swift */,
+				A2000008000000000000000A /* HomeScreenView.swift */,
+				A2000009000000000000000A /* GraphScreenView.swift */,
+				A200000A000000000000000A /* TableScreenView.swift */,
+				A200000B000000000000000A /* YEqualsEditorView.swift */,
+				A200000C000000000000000A /* WindowEditorView.swift */,
+				A200000D000000000000000A /* MatrixEditorView.swift */,
+				A200000E000000000000000A /* ListEditorView.swift */,
+				A200000F000000000000000A /* ProgramEditorView.swift */,
+				A2000010000000000000000A /* ModeScreenView.swift */,
+				A2000011000000000000000A /* MenuOverlayView.swift */,
+				A2000012000000000000000A /* ProgramIOView.swift */,
+			);
+			path = Display;
+			sourceTree = "<group>";
+		};
+		A700000A000000000000000A /* Keypad */ = {
+			isa = PBXGroup;
+			children = (
+				A2000013000000000000000A /* KeypadView.swift */,
+				A2000014000000000000000A /* CalculatorButton.swift */,
+				A2000015000000000000000A /* ButtonStyles.swift */,
+				A2000016000000000000000A /* KeyDefinitions.swift */,
+			);
+			path = Keypad;
+			sourceTree = "<group>";
+		};
+		A700000B000000000000000A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A2000017000000000000000A /* LCDTextView.swift */,
+				A2000018000000000000000A /* CursorView.swift */,
+				A2000019000000000000000A /* StatusBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8000001000000000000000A /* TI84App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9000001000000000000000A /* Build configuration list for PBXNativeTarget "TI84App" */;
+			buildPhases = (
+				A6000001000000000000000A /* Frameworks */,
+				AA000001000000000000000A /* Sources */,
+				AB000001000000000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TI84App;
+			packageProductDependencies = (
+				A300001E000000000000000A /* TI84Core */,
+				A300001F000000000000000A /* TI84Engine */,
+			);
+			productName = TI84App;
+			productReference = A4000001000000000000000A /* TI84App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC000001000000000000000A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A8000001000000000000000A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = AD000001000000000000000A /* Build configuration list for PBXProject "TI84App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7000001000000000000000A;
+			packageReferences = (
+			);
+			productRefGroup = A7000004000000000000000A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8000001000000000000000A /* TI84App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB000001000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA000001000000000000000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001000000000000000A /* TI84App.swift in Sources */,
+				A1000002000000000000000A /* AppState.swift in Sources */,
+				A1000003000000000000000A /* KeyDispatcher.swift in Sources */,
+				A1000004000000000000000A /* KeyboardShortcuts.swift in Sources */,
+				A1000005000000000000000A /* Screen.swift in Sources */,
+				A1000006000000000000000A /* CalculatorShell.swift in Sources */,
+				A1000007000000000000000A /* DisplayView.swift in Sources */,
+				A1000008000000000000000A /* HomeScreenView.swift in Sources */,
+				A1000009000000000000000A /* GraphScreenView.swift in Sources */,
+				A100000A000000000000000A /* TableScreenView.swift in Sources */,
+				A100000B000000000000000A /* YEqualsEditorView.swift in Sources */,
+				A100000C000000000000000A /* WindowEditorView.swift in Sources */,
+				A100000D000000000000000A /* MatrixEditorView.swift in Sources */,
+				A100000E000000000000000A /* ListEditorView.swift in Sources */,
+				A100000F000000000000000A /* ProgramEditorView.swift in Sources */,
+				A1000010000000000000000A /* ModeScreenView.swift in Sources */,
+				A1000011000000000000000A /* MenuOverlayView.swift in Sources */,
+				A1000012000000000000000A /* ProgramIOView.swift in Sources */,
+				A1000013000000000000000A /* KeypadView.swift in Sources */,
+				A1000014000000000000000A /* CalculatorButton.swift in Sources */,
+				A1000015000000000000000A /* ButtonStyles.swift in Sources */,
+				A1000016000000000000000A /* KeyDefinitions.swift in Sources */,
+				A1000017000000000000000A /* LCDTextView.swift in Sources */,
+				A1000018000000000000000A /* CursorView.swift in Sources */,
+				A1000019000000000000000A /* StatusBarView.swift in Sources */,
+				A100001A000000000000000A /* HomeViewModel.swift in Sources */,
+				A100001B000000000000000A /* GraphViewModel.swift in Sources */,
+				A100001C000000000000000A /* TableViewModel.swift in Sources */,
+				A100001D000000000000000A /* MenuViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AE000001000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE000002000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AE000003000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TI84App/TI84App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ti84calculator.TI84App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AE000004000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TI84App/TI84App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ti84calculator.TI84App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9000001000000000000000A /* Build configuration list for PBXNativeTarget "TI84App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE000003000000000000000A /* Debug */,
+				AE000004000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD000001000000000000000A /* Build configuration list for PBXProject "TI84App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE000001000000000000000A /* Debug */,
+				AE000002000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AF000001000000000000000A /* XCLocalSwiftPackageReference "../../Packages/TI84Core" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Packages/TI84Core;
+		};
+		AF000002000000000000000A /* XCLocalSwiftPackageReference "../../Packages/TI84Engine" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Packages/TI84Engine;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A300001E000000000000000A /* TI84Core */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF000001000000000000000A /* XCLocalSwiftPackageReference "../../Packages/TI84Core" */;
+			productName = TI84Core;
+		};
+		A300001F000000000000000A /* TI84Engine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF000002000000000000000A /* XCLocalSwiftPackageReference "../../Packages/TI84Engine" */;
+			productName = TI84Engine;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AC000001000000000000000A /* Project object */;
+}

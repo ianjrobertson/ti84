@@ -1,0 +1,1191 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.xctest/Contents/MacOS/TI84EnginePackageTests",
+      "packagePath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine",
+      "productName" : "TI84EnginePackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.TI84Core-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/sources",
+      "importPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ASTNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/BuiltinFunction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/MenuDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ModeSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Operator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/TI84Value.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Token.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/WindowParameters.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TI84Core",
+      "moduleOutputPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84Core.swiftmodule",
+      "objects" : [
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/Token.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Core-Swift.h",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ti84core"
+      ],
+      "outputFileMapPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/Token.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84Core.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ASTNode.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/BuiltinFunction.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcError.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcKey.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/MenuDefinition.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ModeSettings.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Operator.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/TI84Value.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Token.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/WindowParameters.swift"
+      ],
+      "tempsPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TI84Engine-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/sources",
+      "importPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/CalculatorState/CalculatorState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/CalculatorState/StatePersistence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/Evaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/FunctionEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/NumberFormatter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/ExpressionParser/Parser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/ExpressionParser/Tokenizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/ExtremumFinder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/FunctionPlotter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/RootFinder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/TraceCursor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/ZoomEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/Combinatorics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/ComplexMath.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/MatrixOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/StatisticsEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/Delegates.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/Interpreter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/TIBasicParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84Core.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TI84Engine",
+      "moduleOutputPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84Engine.swiftmodule",
+      "objects" : [
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/CalculatorState.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/StatePersistence.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Evaluator.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/FunctionEvaluator.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/NumberFormatter.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Parser.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Tokenizer.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/ExtremumFinder.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/FunctionPlotter.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/RootFinder.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/TraceCursor.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/ZoomEngine.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Combinatorics.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/ComplexMath.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/MatrixOperations.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/StatisticsEngine.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Delegates.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Interpreter.swift.o",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/TIBasicParser.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/TI84Engine-Swift.h",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ti84engine"
+      ],
+      "outputFileMapPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/CalculatorState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/StatePersistence.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Evaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/FunctionEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/NumberFormatter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Parser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Tokenizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/ExtremumFinder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/FunctionPlotter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/RootFinder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/TraceCursor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/ZoomEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Combinatorics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/ComplexMath.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/MatrixOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/StatisticsEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Delegates.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Interpreter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/TIBasicParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84Engine.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/CalculatorState/CalculatorState.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/CalculatorState/StatePersistence.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/Evaluator.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/FunctionEvaluator.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/NumberFormatter.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/ExpressionParser/Parser.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/ExpressionParser/Tokenizer.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/ExtremumFinder.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/FunctionPlotter.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/RootFinder.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/TraceCursor.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/ZoomEngine.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/Combinatorics.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/ComplexMath.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/MatrixOperations.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/StatisticsEngine.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/Delegates.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/Interpreter.swift",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/TIBasicParser.swift"
+      ],
+      "tempsPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TI84EnginePackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/sources",
+      "importPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84EngineTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TI84EnginePackageTests",
+      "moduleOutputPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84EnginePackageTests.swiftmodule",
+      "objects" : [
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/TI84EnginePackageTests-Swift.h",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ti84engine"
+      ],
+      "outputFileMapPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84EnginePackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TI84EngineTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/sources",
+      "importPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Tests/TI84EngineTests/ParserTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84Engine.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TI84EngineTests",
+      "moduleOutputPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84EngineTests.swiftmodule",
+      "objects" : [
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/ParserTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "ti84engine"
+      ],
+      "outputFileMapPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/ParserTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules/TI84EngineTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Tests/TI84EngineTests/ParserTests.swift"
+      ],
+      "tempsPath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "TI84Core" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "TI84Core",
+      "-package-name",
+      "ti84core",
+      "-incremental",
+      "-c",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ASTNode.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/BuiltinFunction.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcError.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcKey.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/MenuDefinition.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ModeSettings.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Operator.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/TI84Value.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Token.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/WindowParameters.swift",
+      "-I",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Core-Swift.h",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ti84core",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "TI84Engine" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "TI84Engine",
+      "-package-name",
+      "ti84engine",
+      "-incremental",
+      "-c",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/CalculatorState/CalculatorState.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/CalculatorState/StatePersistence.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/Evaluator.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/FunctionEvaluator.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/NumberFormatter.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/ExpressionParser/Parser.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/ExpressionParser/Tokenizer.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/ExtremumFinder.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/FunctionPlotter.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/RootFinder.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/TraceCursor.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/ZoomEngine.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/Combinatorics.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/ComplexMath.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/MatrixOperations.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/StatisticsEngine.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/Delegates.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/Interpreter.swift",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/TIBasicParser.swift",
+      "-I",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/TI84Engine-Swift.h",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ti84engine",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "TI84EnginePackageTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "TI84EnginePackageTests",
+      "-package-name",
+      "ti84engine",
+      "-incremental",
+      "-c",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.derived/runner.swift",
+      "-I",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/TI84EnginePackageTests-Swift.h",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ti84engine",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ],
+    "TI84EngineTests" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "TI84EngineTests",
+      "-package-name",
+      "ti84engine",
+      "-incremental",
+      "-c",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Tests/TI84EngineTests/ParserTests.swift",
+      "-I",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "ti84engine",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "TI84Core" : [
+
+    ],
+    "TI84Engine" : [
+      "TI84Core"
+    ],
+    "TI84EnginePackageTests" : [
+      "TI84EngineTests",
+      "TI84Engine",
+      "TI84Core"
+    ],
+    "TI84EngineTests" : [
+      "TI84Engine",
+      "TI84Core"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ASTNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/BuiltinFunction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/MenuDefinition.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ModeSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Operator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/TI84Value.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Token.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/WindowParameters.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/sources"
+    },
+    "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/CalculatorState/CalculatorState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/CalculatorState/StatePersistence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/Evaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/FunctionEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/Evaluator/NumberFormatter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/ExpressionParser/Parser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/ExpressionParser/Tokenizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/ExtremumFinder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/FunctionPlotter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/RootFinder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/TraceCursor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/GraphEngine/ZoomEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/Combinatorics.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/ComplexMath.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/MatrixOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/MathKernel/StatisticsEngine.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/Delegates.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/Interpreter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Sources/TIBasicInterpreter/TIBasicParser.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/sources"
+    },
+    "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/sources"
+    },
+    "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/Token.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/CalculatorState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Combinatorics.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/ComplexMath.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Delegates.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Evaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/ExtremumFinder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/FunctionEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/FunctionPlotter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Interpreter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/MatrixOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/NumberFormatter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Parser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/RootFinder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/StatePersistence.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/StatisticsEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/TIBasicParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/Tokenizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/TraceCursor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Engine.build/ZoomEngine.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/ParserTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Tests/TI84EngineTests/ParserTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/sources"
+    },
+    "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}

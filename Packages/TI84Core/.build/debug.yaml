@@ -1,0 +1,112 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "TI84Core-arm64-apple-macosx15.0-debug.module": ["<TI84Core-arm64-apple-macosx15.0-debug.module>"]
+  "TI84CorePackageTests-arm64-apple-macosx15.0-debug.module": ["<TI84CorePackageTests-arm64-apple-macosx15.0-debug.module>"]
+  "TI84CorePackageTests-arm64-apple-macosx15.0-debug.test": ["<TI84CorePackageTests-arm64-apple-macosx15.0-debug.test>"]
+  "TI84CoreTests-arm64-apple-macosx15.0-debug.module": ["<TI84CoreTests-arm64-apple-macosx15.0-debug.module>"]
+  "main": ["<TI84Core-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<TI84Core-arm64-apple-macosx15.0-debug.module>","<TI84CorePackageTests-arm64-apple-macosx15.0-debug.test>","<TI84CoreTests-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/Tests/TI84CoreTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ASTNode.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/BuiltinFunction.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcError.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcKey.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/MenuDefinition.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ModeSettings.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Operator.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/TI84Value.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Token.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/WindowParameters.swift"]
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/sources"]
+    description: "Write auxiliary file /Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/sources"
+
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.derived/runner.swift"]
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/sources"]
+    description: "Write auxiliary file /Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/sources"
+
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.derived/runner.swift":
+    tool: test-entry-point-tool
+    inputs: []
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.derived/runner.swift"]
+
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Token.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/runner.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/TI84CoreTests.swift.o"]
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.product/Objects.LinkFileList"
+
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/ianjr/Projects/ti84/Packages/TI84Core/Tests/TI84CoreTests/TI84CoreTests.swift"]
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/sources"]
+    description: "Write auxiliary file /Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/sources"
+
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<TI84Core-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Token.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84Core.swiftmodule"]
+    outputs: ["<TI84Core-arm64-apple-macosx15.0-debug.module>"]
+
+  "<TI84CorePackageTests-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/runner.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84CorePackageTests.swiftmodule"]
+    outputs: ["<TI84CorePackageTests-arm64-apple-macosx15.0-debug.module>"]
+
+  "<TI84CorePackageTests-arm64-apple-macosx15.0-debug.test>":
+    tool: phony
+    inputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.xctest/Contents/MacOS/TI84CorePackageTests"]
+    outputs: ["<TI84CorePackageTests-arm64-apple-macosx15.0-debug.test>"]
+
+  "<TI84CoreTests-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/TI84CoreTests.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84CoreTests.swiftmodule"]
+    outputs: ["<TI84CoreTests-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.TI84Core-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ASTNode.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/BuiltinFunction.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcError.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcKey.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/MenuDefinition.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ModeSettings.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Operator.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/TI84Value.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Token.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/WindowParameters.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/sources"]
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Token.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84Core.swiftmodule"]
+    description: "Compiling Swift Module 'TI84Core' (10 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","TI84Core","-emit-dependencies","-emit-module","-emit-module-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84Core.swiftmodule","-output-file-map","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/sources","-I","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Core-Swift.h","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","ti84core"]
+
+  "C.TI84CorePackageTests-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.derived/runner.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84CoreTests.swiftmodule","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/sources"]
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/runner.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84CorePackageTests.swiftmodule"]
+    description: "Compiling Swift Module 'TI84CorePackageTests' (1 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","TI84CorePackageTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84CorePackageTests.swiftmodule","-output-file-map","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/sources","-I","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/TI84CorePackageTests-Swift.h","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","ti84core"]
+
+  "C.TI84CorePackageTests-arm64-apple-macosx15.0-debug.test":
+    tool: shell
+    inputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ASTNode.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/BuiltinFunction.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcError.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/CalcKey.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/MenuDefinition.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/ModeSettings.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Operator.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Value.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/Token.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84Core.build/WindowParameters.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/runner.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/TI84CoreTests.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.product/Objects.LinkFileList"]
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.xctest/Contents/MacOS/TI84CorePackageTests"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/TI84CorePackageTests.xctest/Contents/MacOS/TI84CorePackageTests"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug","-o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.xctest/Contents/MacOS/TI84CorePackageTests","-module-name","TI84CorePackageTests","-Xlinker","-no_warn_duplicate_libraries","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84Core.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84CorePackageTests.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84CoreTests.swiftmodule","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/Library/Developer/Frameworks"]
+
+  "C.TI84CoreTests-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/Tests/TI84CoreTests/TI84CoreTests.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84Core.swiftmodule","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/sources"]
+    outputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/TI84CoreTests.swift.o","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84CoreTests.swiftmodule"]
+    description: "Compiling Swift Module 'TI84CoreTests' (1 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","TI84CoreTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules/TI84CoreTests.swiftmodule","-output-file-map","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CoreTests.build/sources","-I","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","ti84core"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/","/Users/ianjr/Projects/ti84/Packages/TI84Core/Tests/TI84CoreTests/","/Users/ianjr/Projects/ti84/Packages/TI84Core/Package.swift","/Users/ianjr/Projects/ti84/Packages/TI84Core/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

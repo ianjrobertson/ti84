@@ -1,0 +1,4 @@
+module TI84Core {
+    header "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84Core.build/TI84Core-Swift.h"
+    requires objc
+}

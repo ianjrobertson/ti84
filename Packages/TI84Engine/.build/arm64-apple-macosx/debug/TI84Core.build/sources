@@ -1,0 +1,10 @@
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ASTNode.swift
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/BuiltinFunction.swift
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcError.swift
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/CalcKey.swift
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/MenuDefinition.swift
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/ModeSettings.swift
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Operator.swift
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/TI84Value.swift
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/Token.swift
+/Users/ianjr/Projects/ti84/Packages/TI84Core/Sources/TI84Core/WindowParameters.swift

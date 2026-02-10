@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/master.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Engine/Tests/TI84EngineTests/ParserTests.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/ParserTests.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/ParserTests.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/ParserTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EngineTests.build/ParserTests.swiftdeps"
+  }
+}

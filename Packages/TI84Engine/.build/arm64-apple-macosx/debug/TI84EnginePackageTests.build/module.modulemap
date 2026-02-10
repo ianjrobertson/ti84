@@ -1,0 +1,4 @@
+module TI84EnginePackageTests {
+    header "/Users/ianjr/Projects/ti84/Packages/TI84Engine/.build/arm64-apple-macosx/debug/TI84EnginePackageTests.build/TI84EnginePackageTests-Swift.h"
+    requires objc
+}

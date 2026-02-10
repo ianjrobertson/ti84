@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/master.swiftdeps"
+  },
+  "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.derived/runner.swift": {
+    "dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/runner.d",
+    "object": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/ianjr/Projects/ti84/Packages/TI84Core/.build/arm64-apple-macosx/debug/TI84CorePackageTests.build/runner.swiftdeps"
+  }
+}
