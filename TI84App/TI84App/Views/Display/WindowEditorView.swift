@@ -12,17 +12,31 @@ struct WindowEditorView: View {
                 .foregroundColor(.black)
                 .padding(.horizontal, 8)
 
-            WindowField(label: "Xmin=", value: $appState.calculatorState.windowParameters.xMin)
-            WindowField(label: "Xmax=", value: $appState.calculatorState.windowParameters.xMax)
-            WindowField(label: "Xscl=", value: $appState.calculatorState.windowParameters.xScl)
-            WindowField(label: "Ymin=", value: $appState.calculatorState.windowParameters.yMin)
-            WindowField(label: "Ymax=", value: $appState.calculatorState.windowParameters.yMax)
-            WindowField(label: "Yscl=", value: $appState.calculatorState.windowParameters.yScl)
-            WindowIntField(label: "Xres=", value: $appState.calculatorState.windowParameters.xRes)
+            WindowField(label: "Xmin=", value: windowBinding(\.xMin))
+            WindowField(label: "Xmax=", value: windowBinding(\.xMax))
+            WindowField(label: "Xscl=", value: windowBinding(\.xScl))
+            WindowField(label: "Ymin=", value: windowBinding(\.yMin))
+            WindowField(label: "Ymax=", value: windowBinding(\.yMax))
+            WindowField(label: "Yscl=", value: windowBinding(\.yScl))
+            WindowIntField(label: "Xres=", value: windowIntBinding(\.xRes))
 
             Spacer()
         }
         .padding(.top, 4)
+    }
+
+    private func windowBinding(_ keyPath: WritableKeyPath<WindowParameters, Double>) -> Binding<Double> {
+        Binding(
+            get: { appState.calculatorState.windowParameters[keyPath: keyPath] },
+            set: { appState.calculatorState.windowParameters[keyPath: keyPath] = $0 }
+        )
+    }
+
+    private func windowIntBinding(_ keyPath: WritableKeyPath<WindowParameters, Int>) -> Binding<Int> {
+        Binding(
+            get: { appState.calculatorState.windowParameters[keyPath: keyPath] },
+            set: { appState.calculatorState.windowParameters[keyPath: keyPath] = $0 }
+        )
     }
 }
 

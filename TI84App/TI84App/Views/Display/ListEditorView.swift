@@ -1,5 +1,6 @@
 import SwiftUI
 import TI84Core
+import TI84Engine
 
 /// List editor view (STAT Edit) for editing L1-L6.
 struct ListEditorView: View {
